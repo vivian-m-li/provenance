@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.collective.rss.RSSTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-07T02:14:58" hostname="engr2-3-70-dhcp.int.colorado.edu" time="0.117">
+  <properties/>
+  <testcase name="rss" classname="test.collective.rss.RSSTest" time="0.117"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
