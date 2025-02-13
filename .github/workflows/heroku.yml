@@ -1,0 +1,23 @@
+name: Deploy to Heroku
+
+on:
+  push:
+    branches:
+      - main # Deploy to production
+      - dev # Deploy to staging
+  workflow_dispatch: # Allows manual deployment from GitHub Actions UI
+
+setup:
+build:
+  docker:
+    release:
+      dockerfile: Dockerfile
+      target: builder
+    web: Dockerfile
+# run:
+#   web: bundle exec puma -C config/puma.rb
+#   worker: python myworker.py
+#   asset-syncer:
+#     command:
+#       - python asset-syncer.py
+#     image: worker
