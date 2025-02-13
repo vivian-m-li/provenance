@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.collective.endpoints.EndpointWorkerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-07T02:10:02" hostname="engr2-3-70-dhcp.int.colorado.edu" time="0.336">
+  <properties/>
+  <testcase name="finder" classname="test.collective.endpoints.EndpointWorkerTest" time="0.336"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
