@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse
 class NoopController : BasicHandler() {
     override fun handle(s: String, request: Request, httpServletRequest: HttpServletRequest, httpServletResponse: HttpServletResponse) {
         httpServletResponse.contentType = "text/html; charset=UTF-8"
-        httpServletResponse.outputStream.write("Noop! HELLO WORLD".toByteArray())
+        httpServletResponse.outputStream.write("Noop!".toByteArray())
         httpServletResponse.status = HttpServletResponse.SC_OK
         request.isHandled = true
     }
